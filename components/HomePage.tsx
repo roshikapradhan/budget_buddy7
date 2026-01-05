@@ -56,16 +56,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <h2 className="text-4xl font-bold">Financial health is self-care.</h2>
             <p className="text-pink-100 text-lg max-w-md">Join thousands of people taking the 'boring' out of banking. Your future self will thank you.</p>
           </div>
-          <div className="flex gap-4">
-            <div className="bg-white/20 backdrop-blur-md p-6 rounded-3xl border border-white/30 text-center">
-              <div className="text-3xl font-bold mb-1">10k+</div>
-              <div className="text-xs uppercase tracking-widest text-pink-100 font-bold">Happy Users</div>
-            </div>
-            <div className="bg-white/20 backdrop-blur-md p-6 rounded-3xl border border-white/30 text-center">
-              <div className="text-3xl font-bold mb-1">99%</div>
-              <div className="text-xs uppercase tracking-widest text-pink-100 font-bold">Accuracy</div>
-            </div>
-          </div>
+          
         </div>
         <TrendingUp className="absolute -bottom-10 -right-10 w-64 h-64 text-white/10 rotate-12" />
       </div>
