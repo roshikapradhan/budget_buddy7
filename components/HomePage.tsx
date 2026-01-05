@@ -23,7 +23,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           </span>
         </h1>
         <p className="text-xl text-slate-500 max-w-2xl mx-auto">
-          Take control of your finances without the stress. Track expenses, split bills with friends, and reach your saving goals with a splash of pink.
+          Designed to simplify budgeting and reduce unnecessary financial surprises.
         </p>
         <button 
           onClick={() => onNavigate('expenses')}
